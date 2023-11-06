@@ -1,0 +1,12 @@
+import numpy as np #importing the numpy module which we will be using in this project
+import pandas as pd #importing the pandas module which will be used in this porject
+import string#importing the pandas module which will be used in this porject
+from sklearn.model_selection import train_test_split, GridSearchCV#importing the test_train_split module which will be used in this porject
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score #importing the classification report adn the confusion matrix module which will be used in this porject
+import nltk#importing the nltk module which will be used in this porject
+from nltk.corpus import stopwords#importing the nltk.corpus.stopwords module which will be used in this porject
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer#importing the extraction.text.CountVectorizer and TfidfTransformer module which will be used in this porject
+from sklearn.pipeline import Pipeline #importing the sklearn.pipeline.Pipeline module which will be used in this porject
+from sklearn.ensemble import RandomForestClassifier#importing the sklearn.ensemble.RandomForestClassifier module which will be used in this porject
+from sklearn.svm import SVC#importing the sklearn.svm.SVC module which will be used in this porject
+from sklearn.linear_model import LogisticRegression#importing the sklearn.linear_model.LogisticRegression module which will be used in this porject
